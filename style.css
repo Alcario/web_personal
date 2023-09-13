@@ -1,0 +1,45 @@
+/*Estilo para los encabezados*/
+h1{
+    font-size: 24px;
+    margin: 0;
+}
+
+.color{
+    color: #AE445A;
+}
+
+hr{
+    position: relative;
+    background: #F39F5A;
+    top: 0px;
+    border: none;
+    height: 5px;
+    margin-left: 0;
+}
+
+/*Estilo para los párrafos*/
+p{
+    color: #451952;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/*Estilo para los enlaces*/
+a{
+    color: #ff9900;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    color: #AE445A;
+    
+}
+
+li::before{
+    content: "@";
+    color: #F39F5A;
+    width: 1em;
+    display: inline-block;
+    margin-left: -1em;
+}
